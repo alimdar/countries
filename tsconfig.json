@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "es2015",
+    "lib": [
+      "es2016",
+      "dom",
+      "es2018.promise"
+    ],
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build/",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+  },
+  "exclude": [
+    "node_modules",
+    "public/js",
+    "assets/app/polyfills.ts"
+  ],
+  "angularCompilerOptions": {
+    "skipMetadataEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
